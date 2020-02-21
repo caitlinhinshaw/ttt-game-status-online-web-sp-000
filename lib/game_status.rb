@@ -17,6 +17,6 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.find do |win_combination|
-    win_combination[0] == win_combination[]
+    win_combination[0] == win_combination[1]
   end
 end
