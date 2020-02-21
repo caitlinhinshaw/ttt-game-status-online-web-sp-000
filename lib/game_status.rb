@@ -30,3 +30,7 @@ def full?(board)
     index.nil? || index == " "
   end
 end
+
+def draw?(board)
+  full?(board) && !won?(board)
+end
